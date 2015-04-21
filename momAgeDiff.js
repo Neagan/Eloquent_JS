@@ -19,5 +19,5 @@ function momAgeDiff(person) {
   }
 }
 
-console.log(average(ancestry.map(momAgeDiff).filter(hasAge)));
+console.log(average(ancestry.map(momAgeDiff).filter(hasAge)).toFixed(1));
 // → 31.2
